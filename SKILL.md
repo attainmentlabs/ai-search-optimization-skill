@@ -53,7 +53,7 @@ Load only the 1 to 2 files from `references/` most relevant to the user's specif
 | Report templates, audit formats, schema examples | `references/output-templates.md` |
 | SEvO meta-framework (full audit only) | `references/sevo.md` |
 
-Only load `statistics.md` when producing audits, reports, or client-facing content that needs sourced data. Only load `output-templates.md` when the user explicitly requests a deliverable format.
+Only load `references/statistics.md` when producing audits, reports, or client-facing content that needs sourced data. Only load `references/output-templates.md` when the user explicitly requests a deliverable format.
 
 ## The 8 Disciplines
 
@@ -176,4 +176,4 @@ Run against any page being optimized:
 | Reddit Strategy Plan | Subreddit targeting and participation cadence |
 | 4-Week Quick-Start Plan | Customized roadmap by business type |
 
-Load `output-templates.md` for full templates. Always include statistics from `statistics.md` with source attribution.
+Load `references/output-templates.md` for full templates. Always include statistics from `references/statistics.md` with source attribution.
