@@ -3,7 +3,7 @@ name: ai-search-optimization-skill
 description: >
   Get cited by ChatGPT, Perplexity, Claude, Gemini, Google AI Overviews, and AI assistants.
   8 disciplines for AI citation optimization: GEO (generative engine optimization), LLMO
-  (large language model optimization), AIVO (AI visibility and brand accuracy monitoring),
+  (large language model optimization), AIVO (AI visibility optimization),
   CSO (conversational search optimization), AAIO (agentic AI optimization), AI Shopping
   (ChatGPT Checkout, Google AI Shopping), Reddit optimization for AI citations, and multimodal
   search. Use this skill whenever the user wants to appear in AI answers, get cited by AI,
@@ -38,20 +38,20 @@ Key numbers:
 
 ## Reference Files
 
-Load only the 1 to 2 files most relevant to the user's specific question. Do not load all files. This keeps responses focused and avoids unnecessary token usage.
+Load only the 1 to 2 files from `references/` most relevant to the user's specific question. Do not load all files. This keeps responses focused and avoids unnecessary token usage.
 
 | Need | Load |
 |------|------|
-| Citation hooks, original data tactics, author authority | `geo-llmo.md` |
-| Brand accuracy audits, Golden Prompts, hallucination detection | `aivo.md` |
-| Multi-turn dialogue, fanout prompts, conversation flow | `cso.md` |
-| AI shopping feeds, Google AI Shopping, ChatGPT Checkout | `ai-shopping.md` |
-| Agentic AI, autonomous agents, ReserveAction schema | `aaio-overviews.md` |
-| Cross-modal content, image+text, video analysis | `multimodal.md` |
-| Reddit optimization, subreddit strategy, karma building | `social-video-visual.md` |
-| Statistics with sources (for audits and reports) | `statistics.md` |
-| Report templates, audit formats, schema examples | `output-templates.md` |
-| SEvO meta-framework (full audit only) | `sevo.md` |
+| Citation hooks, original data tactics, author authority | `references/geo-llmo.md` |
+| Brand accuracy audits, Golden Prompts, hallucination detection | `references/aivo.md` |
+| Multi-turn dialogue, fanout prompts, conversation flow | `references/cso.md` |
+| AI shopping feeds, Google AI Shopping, ChatGPT Checkout | `references/ai-shopping.md` |
+| Agentic AI, autonomous agents, ReserveAction schema | `references/aaio-overviews.md` |
+| Cross-modal content, image+text, video analysis | `references/multimodal.md` |
+| Reddit optimization, subreddit strategy, karma building | `references/social-video-visual.md` |
+| Statistics with sources (for audits and reports) | `references/statistics.md` |
+| Report templates, audit formats, schema examples | `references/output-templates.md` |
+| SEvO meta-framework (full audit only) | `references/sevo.md` |
 
 Only load `statistics.md` when producing audits, reports, or client-facing content that needs sourced data. Only load `output-templates.md` when the user explicitly requests a deliverable format.
 
@@ -89,13 +89,15 @@ AI platforms increasingly process multiple inputs simultaneously: photo + text, 
 
 ## Prioritization by Business Type
 
+Before recommending disciplines, determine the client's business type, current AI visibility, and content maturity. Then use this matrix.
+
 | Business Type | Critical (now) | High (60 days) | Medium (later) |
 |---------------|---------------|----------------|---------------|
 | SaaS / B2B | GEO, LLMO | AIVO, CSO, Reddit | AAIO, Multimodal |
-| E-Commerce | AI Shopping, AAIO | GEO, Multimodal | AIVO, CSO, Reddit |
-| Local Services | AIVO, CSO | GEO, Multimodal | AAIO, Reddit |
-| Professional Services | GEO, AIVO | LLMO, CSO | Reddit, Multimodal |
-| Healthcare | AIVO, GEO | CSO, Multimodal | Reddit, AAIO |
+| E-Commerce | AI Shopping, AAIO | GEO, AIVO, LLMO | CSO, Multimodal, Reddit |
+| Local Services | AIVO, CSO | GEO, Multimodal | LLMO, AAIO, Reddit |
+| Professional Services | GEO, AIVO | LLMO, CSO | Reddit, Multimodal, AAIO |
+| Healthcare | AIVO, GEO | CSO, LLMO, Multimodal | Reddit, AAIO |
 | Media / Publishing | GEO, LLMO, Reddit | CSO, Multimodal | AIVO, AAIO |
 
 ## Quick-Start (4 Weeks)
