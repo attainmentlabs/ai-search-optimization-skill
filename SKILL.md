@@ -1,19 +1,16 @@
 ---
 name: ai-search-optimization-skill
 description: >
-  Get cited by ChatGPT, Perplexity, Claude, Gemini, Google AI Overviews, and AI assistants.
-  8 disciplines for AI citation optimization: GEO (generative engine optimization), LLMO
-  (large language model optimization), AIVO (AI visibility optimization),
-  CSO (conversational search optimization), AAIO (agentic AI optimization), AI Shopping
-  (ChatGPT Checkout, Google AI Shopping), Reddit optimization for AI citations, and multimodal
-  search. Use this skill whenever the user wants to appear in AI answers, get cited by AI,
-  improve AI visibility, audit brand accuracy in ChatGPT or Perplexity, optimize for AI
-  shopping agents, build citation hooks, run Golden Prompt audits, track Share of Model,
-  fix AI hallucinations about their brand, optimize Reddit presence for AI training data,
-  or prepare for autonomous AI agents. Also trigger on: AI citations, AI search, generative
-  engine, LLM optimization, AI answers, "why doesn't ChatGPT mention us", AI brand accuracy,
-  AI shopping, agentic commerce. For traditional SEO (Google rankings, backlinks, technical
-  SEO, local maps), use the companion ai-seo-skill instead.
+  Use this skill when users ask about ChatGPT, Perplexity, Claude, or Gemini in a marketing
+  or brand context. Specifically: getting cited or mentioned in AI answers, fixing wrong
+  information AI says about their brand, auditing AI responses about their business, building
+  content that AI systems will quote (citation hooks), optimizing Reddit so AI models reference
+  their brand, or implementing GEO (generative engine optimization). Trigger on any query about
+  AI hallucinations about a brand, appearing in AI-generated answers, Share of Model tracking,
+  AI brand monitoring, AI shopping optimization, or agentic AI readiness. The key signal is:
+  the user wants visibility inside AI assistants, not inside Google search results. Do NOT
+  trigger for Google rankings, backlinks, page speed, schema markup for Google, Google Ads,
+  or keyword rankings.
 ---
 
 # AI Search Optimization (8 Disciplines)
